@@ -12,6 +12,7 @@ namespace ArrayDemo
         {
             Console.WriteLine("1 : Print The Array Element");
             Console.WriteLine("2 : Array Reverse ");
+            Console.WriteLine("3 : Array Sum");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -23,6 +24,10 @@ namespace ArrayDemo
                 case 2:
                     ReverseArray reverseArray = new ReverseArray();
                     reverseArray.Array();
+                    break;
+                case 3:
+                    ArraySum arraySum = new ArraySum();
+                    arraySum.Sum();
                     break;
             }
             Console.ReadLine();
