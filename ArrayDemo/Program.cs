@@ -14,6 +14,7 @@ namespace ArrayDemo
             Console.WriteLine("2 : Array Reverse ");
             Console.WriteLine("3 : Array Sum");
             Console.WriteLine("4 : Sum Of All Array Element");
+            Console.WriteLine("5 : Copy One Array TYo Second Array");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,6 +34,10 @@ namespace ArrayDemo
                 case 4:
                     SumArray sumArray = new SumArray();
                     sumArray.Sum(); 
+                    break;
+                case 5:
+                    CopyElements copyElements = new CopyElements();
+                    copyElements.Elements();
                     break;
             }
             Console.ReadLine();
