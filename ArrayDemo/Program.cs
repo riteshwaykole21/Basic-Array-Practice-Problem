@@ -15,6 +15,8 @@ namespace ArrayDemo
             Console.WriteLine("3 : Array Sum");
             Console.WriteLine("4 : Sum Of All Array Element");
             Console.WriteLine("5 : Copy One Array TYo Second Array");
+            Console.WriteLine("6 :Copy The Elements");
+            Console.WriteLine("7 : Duplicate Element Of An Array");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -38,6 +40,14 @@ namespace ArrayDemo
                 case 5:
                     CopyElements copyElements = new CopyElements();
                     copyElements.Elements();
+                    break;
+                case 6:
+                    Elementscopy elementscopy = new Elementscopy();
+                    elementscopy.Elements();
+                    break;
+                case 7:
+                    DuplicateElement duplicateElement = new DuplicateElement();
+                    duplicateElement.Elements();
                     break;
             }
             Console.ReadLine();

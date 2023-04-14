@@ -46,6 +46,8 @@
     <Compile Include="ArrayPrint.cs" />
     <Compile Include="ArraySum.cs" />
     <Compile Include="CopyElements.cs" />
+    <Compile Include="DuplicateElement.cs" />
+    <Compile Include="Elementscopy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseArray.cs" />
