@@ -17,6 +17,7 @@ namespace ArrayDemo
             Console.WriteLine("5 : Copy One Array TYo Second Array");
             Console.WriteLine("6 :Copy The Elements");
             Console.WriteLine("7 : Duplicate Element Of An Array");
+            Console.WriteLine("8 : Unique Element Of An Array");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -48,6 +49,10 @@ namespace ArrayDemo
                 case 7:
                     DuplicateElement duplicateElement = new DuplicateElement();
                     duplicateElement.Elements();
+                    break;
+                case 8:
+                    UniqueElement uniqueElement = new UniqueElement();
+                    uniqueElement.Element();
                     break;
             }
             Console.ReadLine();

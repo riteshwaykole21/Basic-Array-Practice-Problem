@@ -24,6 +24,7 @@ namespace ArrayDemo
                 }
             }
             Console.WriteLine("Total Number Of Dublicate Number in Array  :  " + count);
+            
         }
     }
 }
